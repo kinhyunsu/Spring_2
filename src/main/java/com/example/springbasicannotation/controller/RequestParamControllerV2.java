@@ -53,8 +53,8 @@ public class RequestParamControllerV2 {
     @GetMapping("/v4/request-param")
     public String requestParamV4(
             @RequestParam(required = true) String name, // 필수
-//            @RequestParam(required = false) int age	// 필수가 아님
-            @RequestParam(required = false) Integer age
+            //@RequestParam(required = false) int age	// 필수가 아님
+           @RequestParam(required = false) Integer age
     ) {
         // logic
         log.info("name={}", name);

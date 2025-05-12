@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ParameterController {
 
     // parms 속성값 추가
-//    @GetMapping(value = "/users", params = "gender=man")
+//    @GetMapping(value = "/users", params = "!gender")
 //    public String params() {
 //        // logic
 //        String result = "params API가 호출 되었습니다.";
